@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-19T13:24:48 IST" name="CommunityMedicineApplication" finished-at="2024-06-19T13:25:23 IST" duration-ms="34707">
+    <groups>
+    </groups>
+    <test started-at="2024-06-19T13:24:48 IST" name="Student" finished-at="2024-06-19T13:25:23 IST" duration-ms="34707">
+      <class name="student.FamilyMember">
+        <test-method signature="familyMember()[pri:0, instance:student.FamilyMember@31190526]" started-at="2024-06-19T13:24:54 IST" name="familyMember" finished-at="2024-06-19T13:25:03 IST" duration-ms="9383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- familyMember -->
+        <test-method signature="viewProfile()[pri:0, instance:student.FamilyMember@31190526]" started-at="2024-06-19T13:25:03 IST" name="viewProfile" finished-at="2024-06-19T13:25:16 IST" duration-ms="13110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewProfile -->
+        <test-method signature="search()[pri:0, instance:student.FamilyMember@31190526]" started-at="2024-06-19T13:25:16 IST" name="search" finished-at="2024-06-19T13:25:19 IST" depends-on-methods="student.FamilyMember.familyMember" duration-ms="2196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="areaFiltering()[pri:0, instance:student.FamilyMember@31190526]" started-at="2024-06-19T13:25:19 IST" name="areaFiltering" finished-at="2024-06-19T13:25:23 IST" depends-on-methods="student.FamilyMember.viewProfile" duration-ms="4430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areaFiltering -->
+      </class> <!-- student.FamilyMember -->
+      <class name="student.Signin">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:student.Signin@1f2586d6]" started-at="2024-06-19T13:24:48 IST" name="LaunchBrowser" finished-at="2024-06-19T13:24:53 IST" duration-ms="5122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="Sign()[pri:0, instance:student.Signin@1f2586d6]" started-at="2024-06-19T13:24:53 IST" name="Sign" finished-at="2024-06-19T13:24:54 IST" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign -->
+      </class> <!-- student.Signin -->
+    </test> <!-- Student -->
+  </suite> <!-- CommunityMedicineApplication -->
+</testng-results>
