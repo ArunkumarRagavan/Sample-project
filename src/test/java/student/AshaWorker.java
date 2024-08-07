@@ -41,6 +41,19 @@ public class AshaWorker {
 		
 		
 	}
+	@Test
+	public void testpush() throws InterruptedException {
+		Thread.sleep(2000);
+		List<WebElement> printAshaWorkerNames= Signin.driver.findElements(By.xpath("//div[@class='ag-pinned-left-cols-container']/div"));
+		Thread.sleep(2000);
+		
+		List<String> name=printAshaWorkerNames.stream().map(n->n.getText()).collect(Collectors.toList());
+		name.forEach(r->System.out.println(r));
+			
+		
+		
+	}
+	
 
 
 	
